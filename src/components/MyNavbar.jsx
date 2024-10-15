@@ -4,7 +4,7 @@ const MyNavbar = () => {
   return (
     <>
       <Navbar className="bg-slate-950 p-4">
-        <NavbarBrand className="flex items-center justify-center space-x-[-10px]">
+        <NavbarBrand className="flex items-center justify-center space-x-[-35px]">
           <p className="font-bold text-2xl tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-blue-500 to-sky-500">
             Zaal
           </p>
