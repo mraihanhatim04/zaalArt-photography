@@ -26,7 +26,7 @@ const MyHeroSection = () => {
             Has become very well known and collectable.
           </p>
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-            <Button className="font-semibold rounded-2xl bg-gradient-to-r from-sky-900 via-sky-700 to-sky-500 text-white">
+            <Button className="font-semibold mt-4 px-20 rounded-2xl bg-gradient-to-r from-sky-900 via-sky-700 to-sky-500 text-white">
               Let's Collaborate
             </Button>
           </a>
