@@ -1,7 +1,11 @@
+import MyHeroSection from "./components/MyHeroSection";
+import MyNavbar from "./components/MyNavbar";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">ZaalArt Photography</h1>
+      <MyNavbar />
+      <MyHeroSection />
     </>
   );
 }
