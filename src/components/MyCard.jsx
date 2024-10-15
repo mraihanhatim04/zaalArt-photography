@@ -5,7 +5,7 @@ const GalleryCard = () => {
     {
       id: 1,
       title: "Gallery 1",
-      image: "/public/images/1.jpg",
+      image: "/public/images/7.jpg",
       description: "Mathematician",
     },
     {
@@ -41,7 +41,7 @@ const GalleryCard = () => {
     {
       id: 7,
       title: "Gallery 7",
-      image: "/public/images/7.jpg",
+      image: "/public/images/1.jpg",
       description: "Mathematician",
     },
     {
@@ -71,11 +71,11 @@ const GalleryCard = () => {
   ];
 
   return (
-    <div className="bg-slate-950 gap-2 grid grid-cols-12 grid-rows-2 px-8">
+    <div className="bg-slate-950 gap-2 grid grid-cols-12 grid-rows-2 p-10 px-8">
       {galleries.map((gallery) => (
         <Card
           key={gallery.id}
-          className="col-span-12 mt-4 sm:col-span-4 h-[300px] gap-4"
+          className="col-span-12 mt-4 sm:col-span-4 h-[390px] bg-slate-950"
         >
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
