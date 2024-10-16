@@ -17,7 +17,7 @@ const MyHeroSection = () => {
       <div
         className="h-screen mt-[-10px] p-2 flex justify-center items-center relative"
         style={{
-          backgroundImage: 'url("/public/images/zaal.png  ")', // Replace with your image path
+          backgroundImage: 'url("./src/assets/zaal.png  ")', // Replace with your image path
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

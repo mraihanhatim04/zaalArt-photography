@@ -6,7 +6,7 @@ const MyNavbar = () => {
       <Navbar className="bg-black p-2 px-6">
         <NavbarBrand className="container mx-auto flex items-center justify-between">
           <img
-            src="/public/images/logo.png"
+            src="./src/assets/logo.png"
             alt=""
             className="h-24 filter ml-[-30px]"
           />
