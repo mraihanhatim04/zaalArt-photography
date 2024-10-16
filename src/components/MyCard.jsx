@@ -71,26 +71,33 @@ const GalleryCard = () => {
   ];
 
   return (
-    <div className="flex flex-wrap bg-black justify-center gap-2">
-      {galleries.map((gallery) => (
-        <Card key={gallery.id} className="bg-slate-950 mt-4 w-[360px]">
-          <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">
-              {gallery.title}
-            </p>
-            <h4 className="text-white font-medium text-large">
-              {gallery.description}
-            </h4>
-          </CardHeader>
-          <Image
-            removeWrapper
-            alt="Card background"
-            className="z-0 w-full h-full object-cover"
-            src={gallery.image}
-          />
-        </Card>
-      ))}
-    </div>
+    <>
+      <div className="flex flex-wrap bg-black justify-center p-4 gap-2">
+        <div className="container mx-auto rounded-3xl mt-10 p-2">
+          <h1 className=" text-2xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-sky-100 via-teal-300 to-blue-500">
+            Our photography
+          </h1>
+        </div>
+        {galleries.map((gallery) => (
+          <Card key={gallery.id} className="bg-slate-950 mt-4 w-[360px]">
+            <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+              <p className="text-tiny text-white/60 uppercase font-bold">
+                {gallery.title}
+              </p>
+              <h4 className="text-white font-medium text-large">
+                {gallery.description}
+              </h4>
+            </CardHeader>
+            <Image
+              removeWrapper
+              alt="Card background"
+              className="z-0 w-full h-full object-cover"
+              src={gallery.image}
+            />
+          </Card>
+        ))}
+      </div>
+    </>
   );
 };
 

@@ -14,10 +14,18 @@ const MyHeroSection = () => {
 
   return (
     <>
-      <div className="h-screen mt-[-60px] bg-black flex justify-center items-center relative">
-        <div className="container mx-auto p-5 rounded-xl z-10 text-center">
+      <div
+        className="h-screen mt-[-10px] p-2 flex justify-center items-center relative"
+        style={{
+          backgroundImage: 'url("/public/images/zaal.png  ")', // Replace with your image path
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          opacity: 0.9,
+        }}
+      >
+        <div className="container mx-auto p-2 py-10 mt-20 rounded-xl z-10 text-center bg-black opacity-85 ">
           <h1 className="text-white mb-2 text-4xl tracking-tight font-bold">
-            <span className="shadow-2xl decoration-teal-500 text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-slate-200 to-sky-500">
+            <span className="shadow-2xl underline decoration-teal-500 text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-slate-200 to-sky-500">
               <ReactTyped
                 strings={["ZaalArt Photography"]}
                 typeSpeed={130}
@@ -41,7 +49,7 @@ const MyHeroSection = () => {
             Reach out for stunning collaborations "
           </p>
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-            <Button className="font-semibold mt-2 px-20 rounded-2xl bg-gradient-to-r from-teal-500 via-sky-700 to-sky-500 text-white">
+            <Button className="font-semibold mt-2 px-20 rounded-2xl bg-gradient-to-r from-teal-600 via-sky-800 to-sky-900 text-white">
               Let's Collaborate
             </Button>
           </a>
