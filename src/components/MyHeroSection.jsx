@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@nextui-org/react";
 import { ReactTyped } from "react-typed";
-import zaal from "../assets/zaal.png";
+import zaal from "../assets/zaal.jpeg";
 
 const MyHeroSection = () => {
   const [phoneNumber] = useState("6285774979149");
