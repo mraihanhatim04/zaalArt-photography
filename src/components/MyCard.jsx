@@ -1,65 +1,75 @@
 import { Card, CardHeader, Image } from "@nextui-org/react";
+import img1 from "../assets/1.jpg";
+import img3 from "../assets/3.jpg";
+import img2 from "../assets/2.jpg";
+import img4 from "../assets/4.jpg";
+import img5 from "../assets/5.jpg";
+import img6 from "../assets/6.jpg";
+import img7 from "../assets/7.jpg";
+import img8 from "../assets/8.jpg";
+import img9 from "../assets/9.jpg";
+import img10 from "../assets/10.jpg";
 
 const GalleryCard = () => {
   const galleries = [
     {
       id: 1,
       title: "Gallery 1",
-      image: "./src/assets/7.jpg",
+      image: img7,
       description: "Top 1 Karambol in the world",
     },
     {
       id: 2,
       title: "Gallery 2",
-      image: "./src/assets/2.jpg",
+      image: img2,
       description: "Lorem ipsum dolor sit amet",
     },
     {
       id: 3,
       title: "Gallery 3",
-      image: "./src/assets/3.jpg",
+      image: img3,
       description: "Lorem ipsum dolor sit amet",
     },
     {
       id: 4,
       title: "Gallery 4",
-      image: "./src/assets/4.jpg",
+      image: img4,
       description: "Lorem ipsum dolor sit amet",
     },
     {
       id: 5,
       title: "Gallery 5",
-      image: "./src/assets/5.jpg",
+      image: img5,
       description: "Lorem ipsum dolor sit amet",
     },
     {
       id: 6,
       title: "Gallery 6",
-      image: "./src/assets/6.jpg",
+      image: img6,
       description: "Lorem ipsum dolor sit amet",
     },
     {
       id: 7,
       title: "Gallery 7",
-      image: "./src/assets/1.jpg",
+      image: img1,
       description: "Lorem ipsum dolor sit amet",
     },
     {
       id: 8,
       title: "Gallery 8",
-      image: "./src/assets/8.jpg",
+      image: img8,
       description: "Lorem ipsum dolor sit amet",
     },
     {
       id: 9,
       title: "Gallery 9",
-      image: "./src/assets/10.jpg",
+      image: img9,
       description: "Lorem ipsum dolor sit amet",
     },
     {
       id: 10,
       title: "Gallery 10",
-      image: "./src/assets/11.jpg",
+      image: img10,
       description: "Lorem ipsum dolor sit amet",
     },
   ];

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@nextui-org/react";
 import { ReactTyped } from "react-typed";
+import zaal from "../assets/zaal.png";
 
 const MyHeroSection = () => {
   const [phoneNumber] = useState("6285774979149");
@@ -17,7 +18,7 @@ const MyHeroSection = () => {
       <div
         className="h-screen mt-[-10px] p-2 flex justify-center items-center relative"
         style={{
-          backgroundImage: 'url("./src/assets/zaal.png  ")', // Replace with your image path
+          backgroundImage: `url${zaal}`, // Replace with your image path
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
