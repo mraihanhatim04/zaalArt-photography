@@ -14,10 +14,10 @@ const MyHeroSection = () => {
 
   return (
     <>
-      <div className="h-screen mt-[-30px] flex justify-center items-center relative">
-        <div className="container text-center p-5 bg-black bg-opacity-50 rounded-xl z-10">
-          <h1 className="text-white mb-2 text-2xl tracking-widest font-bold">
-            <span className="underline decoration-teal-500 text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-slate-200 to-sky-500">
+      <div className="h-screen mt-[-60px] bg-black flex justify-center items-center relative">
+        <div className="container mx-auto p-5 rounded-xl z-10 text-center">
+          <h1 className="text-white mb-2 text-4xl tracking-tight font-bold">
+            <span className="shadow-2xl decoration-teal-500 text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-slate-200 to-sky-500">
               <ReactTyped
                 strings={["ZaalArt Photography"]}
                 typeSpeed={130}
@@ -38,7 +38,7 @@ const MyHeroSection = () => {
           <p className="text-slate-200 mb-2 text-sm tracking-tight italic">
             " My work is known for its vibrant colors and creative expression.
             Let's create captivating visuals that bring your brand to life.
-            Reach out for stunning collaborations that stand out "
+            Reach out for stunning collaborations "
           </p>
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
             <Button className="font-semibold mt-2 px-20 rounded-2xl bg-gradient-to-r from-teal-500 via-sky-700 to-sky-500 text-white">

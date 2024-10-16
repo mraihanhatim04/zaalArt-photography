@@ -71,7 +71,7 @@ const GalleryCard = () => {
   ];
 
   return (
-    <div className="flex flex-wrap justify-center gap-2">
+    <div className="flex flex-wrap bg-black justify-center gap-2">
       {galleries.map((gallery) => (
         <Card key={gallery.id} className="bg-slate-950 mt-4 w-[360px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
