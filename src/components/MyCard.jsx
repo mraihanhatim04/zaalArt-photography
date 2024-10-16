@@ -62,10 +62,16 @@ const GalleryCard = () => {
       image: "/public/images/11.jpg",
       description: "Mathematician",
     },
+    {
+      id: 11,
+      title: "Gallery 11",
+      image: "/public/images/9.jpg",
+      description: "Mathematician",
+    },
   ];
 
   return (
-    <div className=" flex flex-wrap justify-center gap-2">
+    <div className="flex flex-wrap justify-center gap-2">
       {galleries.map((gallery) => (
         <Card key={gallery.id} className="bg-slate-950 mt-4 w-[360px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
